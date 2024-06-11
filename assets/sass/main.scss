@@ -284,29 +284,9 @@ $pattern-background-size: 25em;
 
 		&.special {
 			margin-bottom: 5em;
-			padding-top: 7em;
+			padding-top: 0;
 			position: relative;
 			text-align: center;
-
-			&:before,
-			&:after {
-				border-bottom: solid 1.5px;
-				border-top: solid 1.5px;
-				content: '';
-				height: 7px;
-				opacity: 0.1;
-				position: absolute;
-				top: 1.75em;
-				width: 43%;
-			}
-
-			&:before {
-				left: 0;
-			}
-
-			&:after {
-				right: 0;
-			}
 
 			h2 {
 				margin-bottom: 0;
@@ -427,6 +407,8 @@ $pattern-background-size: 25em;
 			img {
 				display: block;
 				width: 100%;
+				max-height: 323px;
+				object-fit: cover;
 			}
 		}
 	}
