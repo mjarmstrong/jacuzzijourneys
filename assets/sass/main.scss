@@ -956,6 +956,22 @@ $pattern-background-size: 25em;
 		padding: 6em 0;
 		text-align: center;
 
+		&.hot-tug {
+			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/hot-tug.png');
+		}
+
+		&.camping {
+			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/camping-retreat.jpg');
+		}
+
+		&.tree-tent {
+			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/tent-tree.png');
+		}
+		
+		&.guided {
+			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/adventures.jpg');
+		}
+
 		.inner {
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor('animation-fill-mode', 'forwards');

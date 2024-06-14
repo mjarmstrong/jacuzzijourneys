@@ -1936,6 +1936,18 @@ button.small,
   padding: 6em 0;
   text-align: center;
 }
+#banner.hot-tug {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/hot-tug.png");
+}
+#banner.camping {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/camping-retreat.jpg");
+}
+#banner.tree-tent {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/tent-tree.png");
+}
+#banner.guided {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/adventures.jpg");
+}
 #banner .inner {
   animation: reveal-banner 1s 0.25s ease-in-out;
   animation-fill-mode: forwards;
