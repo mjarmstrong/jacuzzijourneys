@@ -1089,6 +1089,10 @@ button,
     background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/adventures.jpg");
   }
 
+  &.offerings {
+    background-position: bottom left, bottom right, top left, center -400px;
+  }
+
   .inner {
     @include vendor("animation", "reveal-banner 1s 0.25s ease-in-out");
     @include vendor("animation-fill-mode", "forwards");
