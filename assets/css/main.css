@@ -2043,7 +2043,8 @@ button.small,
   text-align: center;
 }
 #banner.hot-tug {
-  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/hot-tug.png");
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/hot-tug2.png");
+  background-position: bottom left, bottom right, top left, center -650px;
 }
 #banner.camping {
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/camping-retreat.jpg");
