@@ -2082,7 +2082,7 @@ button.small,
 }
 @media screen and (max-width: 840px) {
   #banner .inner img {
-    max-width: 320px;
+    max-width: 275px;
   }
 }
 #banner .inner p {

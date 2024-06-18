@@ -1123,7 +1123,7 @@ button,
       max-width: 375px;
 
       @include breakpoint("<=narrower") {
-        max-width: 320px;
+        max-width: 275px;
       }
     }
 
