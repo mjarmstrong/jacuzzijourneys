@@ -1427,7 +1427,7 @@ header.major {
 }
 header.special {
   margin-bottom: 5em;
-  padding-top: 0;
+  padding: 0 4rem;
   position: relative;
   text-align: center;
 }
