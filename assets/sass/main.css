@@ -1942,6 +1942,9 @@ button.small,
 #banner.guided {
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/adventures.jpg");
 }
+#banner.version2 {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner2.jpg");
+}
 #banner .inner {
   animation: reveal-banner 1s 0.25s ease-in-out;
   animation-fill-mode: forwards;

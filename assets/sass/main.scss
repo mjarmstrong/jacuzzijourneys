@@ -965,6 +965,10 @@ $pattern-background-size: 25em;
 			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/adventures.jpg');
 		}
 
+		&.version2 {
+			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/banner2.jpg');
+		}
+
 		.inner {
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor('animation-fill-mode', 'forwards');
