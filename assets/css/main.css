@@ -1920,7 +1920,7 @@ button.small,
 }
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
+  background-color: #000;
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
   background-position: bottom left, bottom right, top left, center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -1942,15 +1942,19 @@ button.small,
 #banner.guided {
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/adventures.jpg");
 }
+#banner.version2 {
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner2.jpg");
+}
 #banner .inner {
   animation: reveal-banner 1s 0.25s ease-in-out;
   animation-fill-mode: forwards;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(52, 27, 43, 0.5);
   color: #fff;
   display: inline-block;
   opacity: 0;
   padding: 3em;
   text-align: center;
+  margin: 0;
 }
 #banner .inner header {
   display: inline-block;
@@ -2016,7 +2020,7 @@ body.index #main {
 /* CTA */
 #cta {
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
+  background-color: #000;
   background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
   background-position: top left, top right, top left, bottom center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;

@@ -967,7 +967,7 @@ $pattern-background-size: 25em;
 
 		&.version2 {
 			background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/banner2.jpg');
-		}
+		} 
 
 		.inner {
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
@@ -978,6 +978,7 @@ $pattern-background-size: 25em;
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			margin: 0;
 
 			header {
 				display: inline-block;

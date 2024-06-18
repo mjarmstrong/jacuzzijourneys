@@ -1954,6 +1954,7 @@ button.small,
   opacity: 0;
   padding: 3em;
   text-align: center;
+  margin: 0;
 }
 #banner .inner header {
   display: inline-block;
