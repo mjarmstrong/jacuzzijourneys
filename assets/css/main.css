@@ -2052,7 +2052,17 @@ button.small,
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/adventures.jpg");
 }
 #banner.offerings {
-  background-position: bottom left, bottom right, top left, center -400px;
+  background-position: bottom left, bottom right, top left, center -475px;
+}
+@media screen and (max-width: 1280px) {
+  #banner.offerings {
+    background-position: bottom left, bottom right, top left, center -200px;
+  }
+}
+@media screen and (max-width: 840px) {
+  #banner.offerings {
+    background-position: bottom left, bottom right, top left, center;
+  }
 }
 #banner .inner {
   animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2186,7 +2196,7 @@ body.index #main {
   }
   /* Section/Article */
   header.special {
-    padding-top: 5em;
+    padding-top: 2em;
     margin-bottom: 4em;
   }
 }

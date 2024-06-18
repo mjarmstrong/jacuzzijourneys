@@ -1092,7 +1092,15 @@ button,
   }
 
   &.offerings {
-    background-position: bottom left, bottom right, top left, center -400px;
+    background-position: bottom left, bottom right, top left, center -475px;
+
+    @include breakpoint("<=normal") {
+      background-position: bottom left, bottom right, top left, center -200px;
+    }
+
+    @include breakpoint("<=narrower") {
+      background-position: bottom left, bottom right, top left, center;
+    }
   }
 
   .inner {
@@ -1254,7 +1262,7 @@ body.index #main {
 
   header {
     &.special {
-      padding-top: 5em;
+      padding-top: 2em;
       margin-bottom: 4em;
     }
   }
