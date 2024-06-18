@@ -1434,6 +1434,9 @@ header.special {
 header.special h2 {
   margin-bottom: 0;
 }
+header.special.contact h2 {
+  margin-top: 2em;
+}
 header.special h2 + p {
   margin-bottom: 0;
   padding-top: 1.5em;
