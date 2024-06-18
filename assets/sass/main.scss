@@ -1446,7 +1446,7 @@ body.index #main {
 
     &.special {
       margin-bottom: 4em;
-      padding-top: 3.5em;
+      padding-top: 1em;
 
       &:before,
       &:after {
@@ -1722,6 +1722,10 @@ body.index #main {
 
   p {
     text-align: justify;
+
+    .special & {
+      text-align: center;
+    }
   }
 
   /* Section/Article */

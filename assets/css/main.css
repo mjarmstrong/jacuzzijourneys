@@ -2315,7 +2315,7 @@ body.index #main {
   }
   header.special {
     margin-bottom: 4em;
-    padding-top: 3.5em;
+    padding-top: 1em;
   }
   header.special:before, header.special:after {
     width: 40%;
@@ -2540,6 +2540,9 @@ body.index #main {
   }
   p {
     text-align: justify;
+  }
+  .special p {
+    text-align: center;
   }
   /* Section/Article */
   header {
