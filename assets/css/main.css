@@ -1945,7 +1945,6 @@ button.small,
 #banner .inner {
   animation: reveal-banner 1s 0.25s ease-in-out;
   animation-fill-mode: forwards;
-  background: rgba(0, 0, 0, 0.4);
   color: #fff;
   display: inline-block;
   opacity: 0;
