@@ -1194,7 +1194,7 @@ body.index #main {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: _palette(three, bg);
   background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-  background-position: top left, top right, top left, bottom center;
+  background-position: top left, top right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: $pattern-background-size, $pattern-background-size, auto, cover;
   color: _palette(three, fg);
