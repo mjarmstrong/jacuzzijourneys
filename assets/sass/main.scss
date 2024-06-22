@@ -1936,3 +1936,17 @@ body.index #main {
     }
   }
 }
+
+.experience {
+  position: relative;
+
+  &-price {
+    background: rgba(0,0,0,.5);
+    bottom: 0;
+    color: #fff;
+    max-width: 250px;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+  }
+}
