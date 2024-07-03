@@ -1659,6 +1659,10 @@ ul {
 ul li {
   padding-left: 0.5em;
 }
+ul.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
 
 /* Icons */
 ul.icons {
@@ -2705,4 +2709,28 @@ body.index #main {
   padding: 8px;
   position: absolute;
   right: 0;
+}
+
+.card-featured {
+  padding-left: 32px;
+}
+.card-featured:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #deeaef;
+  content: "";
+}
+
+.expect-item {
+  text-align: left;
+}
+.expect-item .card-featured {
+  position: relative;
+}
+.expect-item .card-featured p {
+  font-weight: 500;
+  margin-bottom: 1em;
 }/*# sourceMappingURL=main.css.map */
