@@ -2058,7 +2058,12 @@ button.small,
 }
 #banner.hot-tug {
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/hot-tug2.png");
-  background-position: bottom left, bottom right, top left, bottom center;
+  background-position: bottom left, bottom right, top left, center -650px;
+}
+@media screen and (max-width: 1280px) {
+  #banner.hot-tug {
+    background-position: bottom left, bottom right, top left, bottom center;
+  }
 }
 #banner.camping {
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/camping-retreat.jpg");
@@ -2734,13 +2739,30 @@ body.index #main {
   content: "";
 }
 
+.expect-container {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+.expect-container .col-4 {
+  padding-left: 0;
+}
+.expect-container .col-4 img {
+  width: 100%;
+}
 .expect-item {
   text-align: left;
 }
 .expect-item .card-featured {
   position: relative;
 }
+.expect-item .card-featured h3 {
+  margin-bottom: 0.5em;
+}
 .expect-item .card-featured p {
   font-weight: 500;
   margin-bottom: 1em;
+}
+.expect-items {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */

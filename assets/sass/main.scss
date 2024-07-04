@@ -521,7 +521,7 @@ input[type="email"] {
       display: block;
       height: 325px;
       object-fit: cover;
-      width: 100%;      
+      width: 100%;
 
       @include breakpoint("<=wide") {
         height: 275px;
@@ -1094,7 +1094,11 @@ button,
 
   &.hot-tug {
     background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/hot-tug2.png");
-    background-position: bottom left, bottom right, top left, bottom center;
+    background-position: bottom left, bottom right, top left, center -650px;
+
+    @include breakpoint("<=normal") {
+      background-position: bottom left, bottom right, top left, bottom center;
+    }
   }
 
   &.camping {
@@ -1981,16 +1985,38 @@ body.index #main {
 }
 
 .expect {
+  &-container {
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+
+    .col-4 {
+      padding-left: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
   &-item {
     text-align: left;
 
     .card-featured {
       position: relative;
 
+      h3 {
+        margin-bottom: .5em;
+      }
+
       p {
         font-weight: 500;
         margin-bottom: 1em;
       }
     }
+  }
+
+  &-items {
+    margin-bottom: 0;
   }
 }
