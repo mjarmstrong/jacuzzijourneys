@@ -428,6 +428,10 @@ header {
     &.contact {
       .icon {
         top: -4em;
+
+        @include breakpoint("<=wide") {
+          top: 0em;
+        }
       }
     }
   }
