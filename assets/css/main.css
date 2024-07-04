@@ -1454,6 +1454,9 @@ header.special .icon:before {
   font-size: 3.5em;
   opacity: 0.35;
 }
+header.special.contact .icon {
+  top: -4em;
+}
 
 footer > :last-child {
   margin-bottom: 0;
