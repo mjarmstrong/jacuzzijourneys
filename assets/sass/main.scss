@@ -2007,7 +2007,7 @@ body.index #main {
     }
 
     > .row {
-      @include breakpoint("<=narrower") {
+      @include breakpoint("<=narrow") {
         flex-direction: column-reverse;
       }
     }

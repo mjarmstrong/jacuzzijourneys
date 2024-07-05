@@ -2755,7 +2755,7 @@ body.index #main {
 .expect-container .col-4 img {
   width: 100%;
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 980px) {
   .expect-container > .row {
     flex-direction: column-reverse;
   }
