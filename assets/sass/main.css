@@ -2752,11 +2752,13 @@ body.index #main {
   padding-bottom: 3em;
   padding-top: 3em;
 }
-.expect-container .col-4 {
-  padding-left: 0;
-}
 .expect-container .col-4 img {
   width: 100%;
+}
+@media screen and (max-width: 840px) {
+  .expect-container > .row {
+    flex-direction: column-reverse;
+  }
 }
 .expect-item {
   text-align: left;
@@ -2770,6 +2772,7 @@ body.index #main {
 .expect-item .card-featured p {
   font-weight: 500;
   margin-bottom: 1em;
+  text-align: left;
 }
 .expect-items {
   margin-bottom: 0;

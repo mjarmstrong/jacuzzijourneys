@@ -2001,10 +2001,14 @@ body.index #main {
     padding-top: 3em;
 
     .col-4 {
-      padding-left: 0;
-
       img {
         width: 100%;
+      }
+    }
+
+    > .row {
+      @include breakpoint("<=narrower") {
+        flex-direction: column-reverse;
       }
     }
   }
@@ -2022,6 +2026,7 @@ body.index #main {
       p {
         font-weight: 500;
         margin-bottom: 1em;
+        text-align: left;
       }
     }
   }
